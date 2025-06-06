@@ -192,7 +192,6 @@ button:hover {
   color: #444;
 }
 
-/* أنماط جديدة لـ Auth */
 .authForm {
   max-width: 400px;
   margin: 0 auto;
@@ -219,4 +218,19 @@ button:hover {
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 3px;
+}
+
+/* أنماط جديدة لـ PrivacyPolicy */
+.container h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
 }
