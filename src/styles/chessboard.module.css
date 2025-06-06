@@ -1,0 +1,51 @@
+.chessboard {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid #333;
+}
+
+.white {
+  background-color: #f0d9b5;
+}
+
+.black {
+  background-color: #b58863;
+}
+
+.newsSection {
+  margin-top: 40px;
+}
+
+.newsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #666;
+}
