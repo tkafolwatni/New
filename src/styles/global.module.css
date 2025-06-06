@@ -234,7 +234,6 @@ button:hover {
   margin-bottom: 15px;
 }
 
-/* أنماط جديدة لـ Notifications */
 .notificationForm {
   max-width: 500px;
   margin: 0 auto;
@@ -253,4 +252,77 @@ button:hover {
 
 .formGroup input[type="checkbox"] {
   margin-right: 10px;
+}
+
+/* أنماط جديدة لـ ChatRoom */
+.chatRoom {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.chatRoom h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.chatRoom h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 15px 0 10px;
+}
+
+.messageList {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.messageItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.messageItem span {
+  font-size: 1rem;
+  color: #444;
+}
+
+.messageForm {
+  display: flex;
+  gap: 10px;
+}
+
+.messageForm input {
+  flex: 1;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.pollForm, .reminderForm {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.pollForm input, .reminderForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
