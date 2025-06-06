@@ -167,7 +167,6 @@ button:hover {
   color: #444;
 }
 
-/* أنماط جديدة لـ Profile */
 .activityLog {
   margin-top: 20px;
 }
@@ -191,4 +190,33 @@ button:hover {
 .logItem span {
   font-size: 1rem;
   color: #444;
+}
+
+/* أنماط جديدة لـ Auth */
+.authForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  display: block;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
