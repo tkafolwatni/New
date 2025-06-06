@@ -127,7 +127,6 @@ button:hover {
   padding: 20px 0;
 }
 
-/* أنماط جديدة لـ NewsCard */
 .newsCard {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -146,4 +145,50 @@ button:hover {
   font-size: 1rem;
   color: #666;
   line-height: 1.5;
+}
+
+.userList {
+  margin-top: 20px;
+}
+
+.userItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.userItem span {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* أنماط جديدة لـ Profile */
+.activityLog {
+  margin-top: 20px;
+}
+
+.activityLog h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.logItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.logItem span {
+  font-size: 1rem;
+  color: #444;
 }
