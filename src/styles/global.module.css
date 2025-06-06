@@ -1,3 +1,4 @@
+/* الأنماط السابقة */
 .chatContainer {
   padding: 20px;
   max-width: 800px;
@@ -59,4 +60,34 @@ button {
 
 button:hover {
   background-color: #0052a3;
+}
+
+/* أنماط جديدة للهيدر */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+}
+
+.nav a {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
 }
