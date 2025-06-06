@@ -1,0 +1,24 @@
+# تعليمات برمجية Node.js
+node_modules/
+.next/
+dist/
+build/
+
+# ملفات بيئية
+.env
+.env.local
+.env.development
+.env.production
+
+# ملفات مؤقتة
+*.log
+*.tmp
+
+# ملفات IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# أنظمة التحكم الأخرى
+.gitignore
