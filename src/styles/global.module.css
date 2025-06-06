@@ -1,0 +1,62 @@
+.chatContainer {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.roomList {
+  margin-bottom: 20px;
+}
+
+.roomItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+}
+
+.roomItem span {
+  cursor: pointer;
+  color: #0066cc;
+}
+
+.roomItem span:hover {
+  text-decoration: underline;
+}
+
+.roomItem button {
+  padding: 5px 10px;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.roomItem button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0052a3;
+}
