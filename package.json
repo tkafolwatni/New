@@ -2,7 +2,7 @@
   "name": "my-political-site",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
+  "scripts": {80139
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
